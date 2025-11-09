@@ -1,0 +1,43 @@
+package eva3_3_menu;
+
+import java.util.Scanner;
+
+public class EVA3_3_MENU {
+
+    public static void main(String[] args) {
+        Scanner captu = new Scanner(System.in);
+        int opcion;
+        do{
+            imprimirMenu();
+            opcion = captu.nextInt();
+            if(opcion == 1){
+                
+            }else if(opcion == 2){
+            
+            }
+        }while(opcion !=3);
+        
+        
+        
+        }
+    public static void imprimirMenu(){
+        System.out.println("Bienvenido al sistema");
+        System.out.println("Selecciona una opcion");
+        System.out.println("1.Calcular una potencia");
+        System.out.println("2.Sumar dos numeros");
+        System.out.println("3.Salir del sistema");
+        System.out.println("Selecciona una opcion");
+
+    }
+    public static void calcularPotencia(){
+        Scanner captu = new Scanner(System.in);
+        int base, exp;
+        System.out.println("*******Calculo de una potencia*******");
+        System.out.println("Captura la base");
+        base = captu.nextInt();
+        System.out.println("Captura el exponente");
+        base = captu.nextInt();
+
+    }
+    
+}
