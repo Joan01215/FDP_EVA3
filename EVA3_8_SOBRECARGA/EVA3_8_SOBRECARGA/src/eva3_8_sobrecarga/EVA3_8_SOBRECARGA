@@ -1,0 +1,15 @@
+package eva3_8_sobrecarga;
+
+public class EVA3_8_SOBRECARGA {
+
+    public static void main(String[] args) {
+        System.out.println("HOLA");
+        System.out.println(100);
+        System.out.println(100.5);
+        System.out.println(true);
+        System.out.println('c');
+        System.out.println(args);        
+                
+    }
+    
+}
